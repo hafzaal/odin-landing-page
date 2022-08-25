@@ -13,8 +13,24 @@ body {
     display: flex;
 }
 
+.logo {
+
+}
+
+.header-links {
+
+}
+
 .header-content {
     display: flex;
+}
+
+.website-info {
+
+}
+
+.more-images-button {
+
 }
 
 .header-image {
@@ -30,12 +46,36 @@ body {
     display: flex;
 }
 
+.card {
+
+}
+
 .content-wide-banner {
 
 }
 
-.content-signup-prompt {
+.wide-landscape-image {
 
+}
+
+.content-newslette{
+    
+}
+
+.newsletter-background-image {
+
+}
+
+.newsletter-banner {
+
+}
+
+.newsletter-text {
+
+}
+
+.sign-up-button {
+    
 }
 
 .footer {
