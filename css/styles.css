@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Open Sans', sans-serif
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    display: flex;
+}
+
+.header-content {
+    display: flex;
+}
+
+.header-image {
+    height: 200px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-cards {
+    display: flex;
+}
+
+.content-wide-banner {
+
+}
+
+.content-signup-prompt {
+
+}
+
+.footer {
+    height: 70px;
+    background-color: #274472;
+    color: white;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
