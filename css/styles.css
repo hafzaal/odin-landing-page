@@ -1,4 +1,5 @@
 body {
+    min-height: 100vh; /* We need this to set the height of the body to the entire viewport */
     display: flex;
     flex-direction: column;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -15,6 +16,12 @@ a {
     color: white;
 }
 
+/* 
+
+MAIN HEADER SECTION
+
+*/
+
 .header {
     display: flex;
     flex-direction: column;
@@ -22,6 +29,11 @@ a {
     height: 550px;
     padding: 0px 200px;
 }
+
+/*
+/ Navigation section. 
+/ Handles the logo and the navigation links.
+*/
 
 .navigation {
     display: flex;
@@ -33,7 +45,7 @@ a {
 .logo {
     font-size: 40px;
     font-weight: 700;
-    font-family: 'Ink Free','Fira Sans Condensed Hair', sans-serif;
+    font-family: 'Ink Free','Fira Sans Condensed Hair', Roboto, sans-serif;
 }
 
 .header-links {
@@ -41,8 +53,20 @@ a {
     margin: 0px;
     list-style-type: none;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
+
+.header-links li:hover {
+    background-color: #318CE7;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+
+/*
+/ Header Content section.
+/ Handles the text and images in the header.
+*/
 
 .header-content {
     display: flex;
@@ -51,7 +75,12 @@ a {
     margin-bottom: 75px;
 }
 
-.website-info {
+/*
+/ Header Website Information.
+/ The text section of the header
+*/
+
+.header-website-info {
     width: 350px;
 }
 
@@ -69,31 +98,48 @@ a {
     background-color: #318CE7;
 }
 
-.header-image {
-    width: 650px;
+/*
+/ Header Images.
+/ The image section of the header
+*/
+
+
+.header-images {
+    display: flex;
+    justify-content: flex-end;
+    gap: 60px;
+    margin-left: 30px;
+}
+
+.header-image,
+.header-image-2 {
+    
     border-radius: 24px;
+    height: 350px;
     flex: 0 1 auto;
 }
 
-.header-image-secondary {
-    width: 650px;
-    border-radius: 24px;
-    flex: 0 1 auto;
-}
-
-@media screen and (max-width: 2100px) {
-    .header-image-secondary {
+@media screen and (max-width: 1750px) {
+    .header-image-2{
         display: none;
     }
 }
 
+/*
+/
+/
+*/
+
+
 .content {
     display: flex;
+    flex: 1 0 auto;
     flex-direction: column;
 }
 
 .content-cards {
     display: flex;
+    flex: 1 0 auto;
 }
 
 .card {
@@ -101,15 +147,19 @@ a {
 }
 
 .content-wide-banner {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 300px;
 }
 
 .wide-landscape-image {
 
 }
 
-.content-newslette{
-    
+.content-newsletter{
+    height: 300px;
 }
 
 .newsletter-background-image {
