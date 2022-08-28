@@ -96,7 +96,7 @@ MAIN HEADER SECTION
     border-radius: 6px;
 }
 
-.open-gallery-button:hover {
+button:hover {
     background-color: #318CE7;
 }
 
